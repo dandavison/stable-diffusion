@@ -9,6 +9,9 @@ import sys
 import copy
 import warnings
 import time
+
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+
 from ldm.dream.devices import choose_torch_device
 import ldm.dream.readline
 from ldm.dream.pngwriter import PngWriter, PromptFormatter
